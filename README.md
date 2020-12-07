@@ -1,4 +1,8 @@
 # SampleFramework
+This is an empty framework with 2 dependencies: GoogleMobileAds and InMobi.
+InMobi works fine but GoogleMobileAds fails with error:
+`fatal error: 'GoogleMobileAds/GoogleMobileAds.h' file not found
+#import <GoogleMobileAds/GoogleMobileAds.h>`
 ### To reproduce:
 Either run from xcode or from the terminal by typing the following:
 
