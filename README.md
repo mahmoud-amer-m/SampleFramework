@@ -1,6 +1,7 @@
 # SampleFramework
 ### To reproduce:
 Either run from xcode or from the terminal by typing the following:
+
 `xcodebuild -project SampleFramework.xcodeproj -configuration=Release -sdk iphoneos -target SampleFramework install CODE_SIGNING_REQUIRED=NO DSTROOT=""`
 #### Result: 
 Build failed with error: 
@@ -17,6 +18,7 @@ Build failed with error:
  - in SampleFramework.m, comment this line: `#import <GoogleMobileAds/GoogleMobileAds.h>`
  - in terminal, type `pod install`
  - in terminal, type the build command:
+ 
  `xcodebuild -project SampleFramework.xcodeproj -configuration=Release -sdk iphoneos -target SampleFramework install CODE_SIGNING_REQUIRED=NO DSTROOT=""`
  #### Result: 
  Build success 
